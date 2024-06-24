@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import './ImageCarrousel.css';
 
 const logos = [
-  '/public/image/bank.svg',
-  '/public/image/bars.svg',
-  '/public/image/bitcoin.svg',
-  '/public/image/candles.svg',
-  '/public/image/money.svg',
-  '/public/image/stats.svg',
+  '/assets/image/bank.svg',
+  '/assets/image/bars.svg',
+  '/assets/image/bitcoin.svg',
+  '/assets/image/candles.svg',
+  '/assets/image/money.svg',
+  '/assets/image/stats.svg',
 ];
 
 const ImageCarousel: React.FC = () => {

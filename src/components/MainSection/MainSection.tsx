@@ -12,7 +12,7 @@ const MainSection: React.FC = () => {
         </div>
       </div>
       <div className='containerpic'>
-      <img src="/public/image/main-pic.jpg" alt="placeholder" className="placeholder-image" />
+      <img src="/assets/image/main-pic.jpg" alt="placeholder" className="placeholder-image" />
       </div>
     </div>
   );
