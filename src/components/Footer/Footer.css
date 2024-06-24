@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  padding: 50px 0;
+  background: #2B2B2B;
+  position: relative;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-line {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto 30px;
+  background: white;
+  opacity: 0.2;
+  border-radius: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  /* Remover flex-wrap para que los elementos no se envuelvan en nuevas líneas */
+  flex-wrap: nowrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  padding-left: 40px;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.newsplace {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Cambiar a center para alineación vertical central */
+  padding-top: 0; /* Remover padding-top para alineación en una fila */
+  gap: 20px; /* Añadir un gap para espaciado entre elementos */
+}
+
+.updates-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.email-placeholder {
+  width: 200px;
+  height: 30px;
+  padding: 9px 30px;
+  background: #333333;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  opacity: 0.4;
+  font-size: 18px;
+}
+
+.send-button {
+  width: 140px;
+  height: 40px; /* Añadir altura fija para consistencia */
+  background: #BFAFF2;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.send-button-background {
+  width: 80%;
+  height: 80%;
+  background: #BFAFF2;
+  border-radius: 15px;
+}
+
+.send-button-text {
+  position: absolute;
+  color: #333333;
+  font-size: 16px;
+}

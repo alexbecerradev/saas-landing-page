@@ -1,0 +1,57 @@
+.main-section {
+  width: 100%; /* Utiliza todo el ancho disponible */
+  height: 600px;
+  background: #2B2B2B;
+  padding: 60px 60px;
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos al inicio */
+  justify-content: space-between; /* Espacio entre los elementos */
+  box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho total */
+}
+
+.content {
+  max-width: 500px; /* Máximo ancho para el contenido */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 40px; /* Eliminado el padding izquierdo */
+  margin-right: 40px; /* Espacio a la derecha del contenido */
+  box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho total */
+}
+
+.content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.content p {
+  font-size: 18px;
+  opacity: 0.4;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.action {
+  display: flex;
+  justify-content: flex-start; /* Alinea el contenido a la izquierda */
+  width: 100%; /* Asegura que ocupe el 100% del ancho */
+}
+
+.get-started {
+  background: #F8D57E;
+  border-radius: 15px;
+  color: #333;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px; /* Añadido para un poco de padding dentro del botón */
+}
+
+
+.placeholder-image {
+  width: 600px;
+  height: auto;
+  margin: 0; /* Asegura que no haya márgenes */
+  padding: 70px 50px; /* Eliminado el padding */
+  box-sizing: border-box; 
+}

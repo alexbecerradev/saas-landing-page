@@ -1,0 +1,48 @@
+.pillars-section {
+    width: 100%;
+    padding: 50px 0;
+    background: #2B2B2B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .pillar {
+    width: 300px;
+    background: #1E1E1E;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pillar:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pillar-icon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .pillar h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .pillar p {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  

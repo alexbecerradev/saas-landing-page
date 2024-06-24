@@ -1,0 +1,41 @@
+.consultas-section {
+    width: 100%;
+    padding: 50px 0;
+    background: #2B2B2B;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .consultas-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .consultas-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .consultas-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 36px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  

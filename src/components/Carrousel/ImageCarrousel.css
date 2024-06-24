@@ -1,0 +1,20 @@
+.image-carousel {
+  height: 90px;
+  width: auto;
+  max-width: 100%;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.slide {
+  padding: 0 10px;
+}
+
+.slick-slide img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
